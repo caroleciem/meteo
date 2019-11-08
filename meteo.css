@@ -1,0 +1,137 @@
+h1{
+    color:black;
+    text-align: center;
+    font-family: 'Big Shoulders Text';
+    font-size: 47px;
+    width: 95%;
+}
+h2{
+    color:black;
+    text-align: center;
+    font-family: 'Big Shoulders Text';
+    font-size: 30px;
+    width: 95%;
+}
+/* table de l'onglet tableaux des mesures*/
+table {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:90%;
+    border-collapse:collapse;
+    justify-content: center;
+    margin: auto;
+}
+
+td { 
+    border-width:1px;
+    border-style:solid; 
+  
+   
+    }
+th { 
+        border-width:1px;
+        border-style:solid; 
+        
+      
+        }
+/* nav menu */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-inline-start :0;
+    color: steelblue;
+    width: 95%;
+
+}
+nav li {
+    list-style-type: none;
+    padding: 20px;
+    font-size: 28px;
+    font-family: 'Roboto';
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+}
+/* classe de mon enveloppe des 3 tops*/
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-inline-start :0;
+    width: 100%;
+}
+/* id de graphe température*/
+#myChart{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+/*id de graphe humidité*/
+#myChart2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+/*id de graphe pression*/
+#myChart3{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+    
+    
+}
+/* id de l'enveloppe des graphes pour les mettre row*/
+#envGraph{
+    width : 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    height: 500px;
+}
+
+@media screen and (max-width:1024px){
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-inline-start :0;
+        width: 95%;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-inline-start :0;
+        color: steelblue;
+        width: 95%;
+    
+    }
+    #envGraph{
+        
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        height: 50%;
+       
+
+    }
+     
+
+}    
